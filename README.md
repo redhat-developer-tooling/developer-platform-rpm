@@ -1,4 +1,5 @@
-``` shell
+
+
 rpmbuild -bb SPECS/*.spec
 
 mkdir ~/devsuite-repo
@@ -22,11 +23,14 @@ END
 
 sudo cat > /etc/yum.repos.d/devsuite.repo <<END \
 [devsuite]
-name=DevSuiteRepository
+name=Red Hat Development Suite Repository
 baseurl=file:///home/eskimo/devsuite-repo
+gpgkey=https://www.redhat.com/security/data/a5787476.txt
+enabled=1
+gpgcheck=1
 END
 
-sudo yum --nogpgcheck install devsuite
+sudo yum install devsuite
 ```
 
 [1] https://access.redhat.com/sites/default/files/attachments/rpm_building_practice_10082013.pdf
