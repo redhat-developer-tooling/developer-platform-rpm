@@ -14,7 +14,7 @@ sha256sum --check cdk-minishift-3.0.0-1.el7.x86_64.rpm.sha256
 
 curl http://${DOWNLOAD_HOST}/rel-eng/Atomic/cdk/rpms/cdk-3.0.0/signed/docker-machine-kvm-0.0.7-1.el7.x86_64.rpm -O
 echo "63b3b02e11d9e4ac9d8c2ecab24653a3bf41e867a7a7cd165e202c070a1d2d58 docker-machine-kvm-0.0.7-1.el7.x86_64.rpm" > docker-machine-kvm-0.0.7-1.el7.x86_64.rpm.sha256
-sha256sum --check docker-machine-kvm-0.0.7-1.el7.x86_64.rpm.sh256
+sha256sum --check docker-machine-kvm-0.0.7-1.el7.x86_64.rpm.sha256
 
 createrepo .
 
