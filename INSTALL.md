@@ -122,6 +122,15 @@ tools can find it.
 sudo ln -s /home/$(whoami)/.minishift/cache/oc/v3.5.5.8/oc /usr/bin/oc
 ```
 
+You don't have to add yourself to any group, but please expect many requests
+for root's password. If you get annoyed by entering password 20 times to 
+start minishift and 10 times to stop it then just add yourself to `libvirt`
+group with command below.
+
+```sh
+sudo usermod -a -G libvirt $(whoami)
+```
+
 ## Start
 
 To start Developer Studio use `Applications->Programming->Red Hat Eclipse 4.6`
