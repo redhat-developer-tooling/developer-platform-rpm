@@ -20,6 +20,7 @@ sha256sum --check docker-machine-kvm-0.0.7-1.el7.x86_64.rpm.sha256 || exit 1
 createrepo .
 
 cd ..
-zip devsuite-1.4.0-TP-RHEL.zip INSTALL.md LICENSE
-zip -r devsuite-1.4.0-TP-RHEL.zip rh-devsuite-repo
-sha256sum devsuite-1.4.0-TP-RHEL.zip > devsuite-1.4.0-TP-RHEL.zip.sha256
+rm devsuite-1.4.1-TP-RHEL.zip devsuite-1.4.1-TP-RHEL.zip.sha256
+zip devsuite-1.4.1-TP-RHEL.zip INSTALL.md LICENSE
+zip -r devsuite-1.4.1-TP-RHEL.zip rh-devsuite-repo
+sha256sum devsuite-1.4.1-TP-RHEL.zip > devsuite-1.4.1-TP-RHEL.zip.sha256
