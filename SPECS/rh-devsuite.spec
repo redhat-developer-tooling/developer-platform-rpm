@@ -1,5 +1,5 @@
 Name: rh-devsuite
-Version: 1.4.0
+Version: 1.4.1
 Release: 1%{?dist}
 Summary: Red Hat Development Suite
 Group: Applications/File
@@ -18,5 +18,7 @@ Red Hat Development Suite combines Red Hat development tools such as Red Hat JBo
 %files
 
 %changelog
+* Wed Jun 21 2017 Denis Golovin<dgolovin@redhat.com>
+- Update version to 1.4.1
 * Wed May 17 2017 Denis Golovin<dgolovin@redhat.com>
 - Initial commit
