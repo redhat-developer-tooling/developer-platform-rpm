@@ -9,7 +9,7 @@ echo "734c5b2be60adbfefe809ec61698dcc243ce8ae3f39d108b399fd50db810d766 rh-eclips
 sha256sum --check rh-eclipse46-devstudio-10.4-0.20170511.1856.el7.x86_64.rpm.sha256 || exit 1
 
 curl http://${DOWNLOAD_HOST}/rel-eng/Atomic/cdk/rpms/cdk-3.0.0-2/cdk-minishift-3.0.0-2.el7.x86_64.rpm -O
-echo "9018cc281a303f0c45c608d5f2b4167ad2607ebbe3112fe64fd155a09763d07f cdk-minishift-3.0.0-1.el7.x86_64.rpm" > cdk-minishift-3.0.0-1.el7.x86_64.rpm.sha256
+echo "ccaa98daced48b31916015d5be859b99abb5c66ef8c7ec62ae2feab03f2c4bbc cdk-minishift-3.0.0-1.el7.x86_64.rpm" > cdk-minishift-3.0.0-1.el7.x86_64.rpm.sha256
 sha256sum --check cdk-minishift-3.0.0-1.el7.x86_64.rpm.sha256 || exit 1
 
 curl http://${DOWNLOAD_HOST}/rel-eng/Atomic/cdk/rpms/cdk-3.0.0/signed/docker-machine-kvm-0.0.7-1.el7.x86_64.rpm -O
