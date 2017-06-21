@@ -1,8 +1,8 @@
 mkdir -p rh-devsuite-repo
 cd rh-devsuite-repo
-curl http://${DOWNLOAD_HOST}/devel/candidates/jboss/devstudio/devsuite-1.4.0.TP/rpms/signed/rh-devsuite-1.4.0-1.el7.x86_64.rpm -O
-curl http://${DOWNLOAD_HOST}/devel/candidates/jboss/devstudio/devsuite-1.4.0.TP/rpms/signed/rh-devsuite-1.4.0-1.el7.x86_64.rpm.sha256 -O
-sha256sum --check rh-devsuite-1.4.0-1.el7.x86_64.rpm.sha256 || exit 1
+curl http://${DOWNLOAD_HOST}/devel/candidates/jboss/devstudio/devsuite-1.4.1/rpms/signed/rh-devsuite-1.4.1-1.el7.x86_64.rpm -O
+curl http://${DOWNLOAD_HOST}/devel/candidates/jboss/devstudio/devsuite-1.4.1/rpms/SHA256SUM -O
+sha256sum --check SHA256SUM || exit 1
 
 curl http://${DOWNLOAD_HOST}/devel/candidates/jboss/devstudio/devstudio-10.4.0.GA/rpms/signed/rh-eclipse46-devstudio-10.4-0.20170511.1856.el7.x86_64.rpm -O
 echo "734c5b2be60adbfefe809ec61698dcc243ce8ae3f39d108b399fd50db810d766 rh-eclipse46-devstudio-10.4-0.20170511.1856.el7.x86_64.rpm" > rh-eclipse46-devstudio-10.4-0.20170511.1856.el7.x86_64.rpm.sha256
