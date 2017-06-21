@@ -1,3 +1,4 @@
+rm -rf rh-devsuite-repo
 mkdir -p rh-devsuite-repo
 cd rh-devsuite-repo
 curl http://${DOWNLOAD_HOST}/devel/candidates/jboss/devstudio/devsuite-1.4.1/rpms/signed/rh-devsuite-1.4.1-1.el7.x86_64.rpm -O
