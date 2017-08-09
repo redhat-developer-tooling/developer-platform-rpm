@@ -1,6 +1,6 @@
 
 
-rpmbuild -bb SPECS/*.spec
+sh ./build/build-rpm.sh
 
 mkdir ~/devsuite-repo
 
