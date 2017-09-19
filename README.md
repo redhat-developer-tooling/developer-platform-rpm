@@ -1,4 +1,4 @@
-
+``` shell
 
 sh ./build/build-rpm.sh
 
