@@ -7,8 +7,8 @@ Source0: rh-devsuite-src-2.0.1-1.tar.gz
 License: ASL 2.0
 Url: https://developers.redhat.com/products/devsuite/overview/
 
-Requires: rh-eclipse47-devstudio >= 11.0
-Requires: cdk-minishift >= 3.1.1
+Requires: rh-eclipse47-devstudio >= 11.1
+Requires: cdk-minishift >= 3.2.0
 Requires: docker-machine-kvm >= 0.0.7
 Requires: kompose >= 1.3.0
 
