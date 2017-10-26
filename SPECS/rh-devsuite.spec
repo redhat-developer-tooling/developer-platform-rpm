@@ -10,6 +10,7 @@ Url: https://developers.redhat.com/products/devsuite/overview/
 Requires: rh-eclipse47-devstudio >= 11.0
 Requires: cdk-minishift >= 3.1.1
 Requires: docker-machine-kvm >= 0.0.7
+Requires: kompose >= 1.3.0
 
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
