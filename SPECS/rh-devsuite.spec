@@ -1,9 +1,9 @@
 Name: rh-devsuite
-Version: 2.0.1
+Version: 2.1.0
 Release: 1%{?dist}
 Summary: Red Hat Development Suite
 Group: Applications/File
-Source0: rh-devsuite-src-2.0.1-1.tar.gz
+Source0: rh-devsuite-src.tar.gz
 License: ASL 2.0
 Url: https://developers.redhat.com/products/devsuite/overview/
 
