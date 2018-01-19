@@ -1,9 +1,9 @@
 Name: rh-devsuite
-Version: 2.1.0
+Version: 2.2.0
 Release: 1%{?dist}
 Summary: Red Hat Development Suite
 Group: Applications/File
-Source0: rh-devsuite-src-2.1.0-1.tar.gz
+Source0: rh-devsuite-src.tar.gz
 License: ASL 2.0
 Url: https://developers.redhat.com/products/devsuite/overview/
 
@@ -31,7 +31,7 @@ install -m 0755 setup-cdk.sh $RPM_BUILD_ROOT/etc/rh-devsuite/setup-cdk.sh
 
 %changelog
 * Mon Oct 30 2017 Denis Golovin<dgolovin@redhat.com>
-- Update version to 2.1.0 and include kompose rpm 
+- Update version to 2.1.0 and include kompose rpm
 * Tue Aug 8 2017 Denis Golovin<dgolovin@redhat.com>
 - Update version to 2.0.0
 * Wed Jun 21 2017 Denis Golovin<dgolovin@redhat.com>
