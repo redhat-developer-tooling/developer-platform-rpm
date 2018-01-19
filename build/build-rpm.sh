@@ -2,7 +2,7 @@
 rm -rf $(pwd)/rpmbuild/
 mkdir -p $(pwd)/rpmbuild/SOURCES/
 version="$(grep -o 'Version: [1-9]\{1\}.[0-9]\{1\}.[0-9]\{1\}' ./SPECS/rh-devsuite.spec | grep -o '[1-9]\{1\}.[0-9]\{1\}.[0-9]\{1\}')"
-echo $version
+echo Building Version: $version
 tar --xform=s/rh-devsuite/rh-devsuite-$version/ -cvzf $(pwd)/rpmbuild/SOURCES/rh-devsuite-src.tar.gz -C ./SOURCES/ rh-devsuite/
 rpmbuild -ba SPECS/rh-devsuite.spec --define "_topdir $(pwd)/rpmbuild"
 pushd $(pwd)/rpmbuild/RPMS/x86_64/
