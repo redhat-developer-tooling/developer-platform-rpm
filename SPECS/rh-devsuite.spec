@@ -30,6 +30,8 @@ install -m 0755 setup-cdk.sh $RPM_BUILD_ROOT/etc/rh-devsuite/setup-cdk.sh
 /etc/rh-devsuite/setup-cdk.sh
 
 %changelog
+* Tue Jan 23 2018 Denis Golovin<dgolovin@redhat.com>
+- Update version to 2.2.0
 * Mon Oct 30 2017 Denis Golovin<dgolovin@redhat.com>
 - Update version to 2.1.0 and include kompose rpm
 * Tue Aug 8 2017 Denis Golovin<dgolovin@redhat.com>
