@@ -1,5 +1,5 @@
 Name: rh-devsuite
-Version: 2.2.0
+Version: 2.3.0
 Release: 1%{?dist}
 Summary: Red Hat Development Suite
 Group: Applications/File
@@ -7,10 +7,10 @@ Source0: rh-devsuite-src.tar.gz
 License: ASL 2.0
 Url: https://developers.redhat.com/products/devsuite/overview/
 
-Requires: rh-eclipse47-devstudio >= 11.2
-Requires: cdk-minishift >= 3.3.0
+Requires: rh-eclipse47-devstudio >= 11.3
+Requires: cdk-minishift >= 3.4.0
 Requires: docker-machine-kvm >= 0.0.7
-Requires: kompose >= 1.7.0
+Requires: kompose >= 1.11.0
 
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
